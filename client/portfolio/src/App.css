@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.nav-items {
+  padding: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  cursor: pointer;
+
+
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+nav {
+
+  width: 100%;
+
+}
+
+.nav {
+
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.logo {
+  width: 180px;
+
+}
+
+.about {
+  background-color: #000000;
+  color: white;
+}
+
+/* About section */
+.info {
+  width: 650px;
+
+  font-family: 'Inter',
+    sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -7.188px;
+
+
+
+}
+
+.container {
+  color: #0044ff;
+  background: url(https://media1.tenor.com/m/q59uBuW4GMQAAAAC/cloud.gif);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.about-info {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  width: 650px;
+}
+
+.connect {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#container-projects {
+  animation: ease-in 20s;
+  background-color: black;
+}

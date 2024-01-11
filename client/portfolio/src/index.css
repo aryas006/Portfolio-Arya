@@ -1,0 +1,10 @@
+@media(max-width: 1145px) {
+    .nav-items {
+        display: none;
+    }
+
+    .about-info {
+        width: 100%;
+    }
+
+}
