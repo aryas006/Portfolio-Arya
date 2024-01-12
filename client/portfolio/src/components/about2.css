@@ -12,7 +12,9 @@ html {
     line-height: normal;
     letter-spacing: -7.188px;
 }
-
+p {
+    color: white;
+}
 .container {
     color: #0044ff;
     background: url(https://media1.tenor.com/m/q59uBuW4GMQAAAAC/cloud.gif);
@@ -31,6 +33,7 @@ html {
 .about-info {
     grid-column-start: 2;
     text-align: center;
+    
 }
 
 .profile {
