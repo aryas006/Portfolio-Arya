@@ -1,7 +1,7 @@
 import React from "react";
-import "../App.css";
+import "./about2.css";
 import profile from "../components/profile.png";
-import "../index.css";
+
 function About() {
   return (
     <section>

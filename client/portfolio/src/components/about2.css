@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.info {
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -7.188px;
+}
+
+.container {
+    color: #0044ff;
+    background: url(https://media1.tenor.com/m/q59uBuW4GMQAAAAC/cloud.gif);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Set the container height to 100% of the viewport height */
+    align-items: center;
+    /* Center the content vertically */
+}
+
+.about-info {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.profile {
+    max-width: 100%;
+    height: auto;
+}
+
+.connect {
+    margin-top: 20px;
+}
+
+/* Add a media query for small screens */
+@media screen and (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .info {
+        grid-column: span 3;
+    }
+}

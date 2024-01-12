@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import "../App.css";
+import "./Project.css";
 
 export default function Projects() {
   return (
