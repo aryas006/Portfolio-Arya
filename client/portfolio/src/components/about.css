@@ -1,19 +1,17 @@
 .info {
     width: 650px;
-    font-family: 'Inter',
-        sans-serif;
+
     font-size: 100px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     line-height: normal;
     letter-spacing: -7.188px;
 }
 
-.container {
- 
+.containermain{
+
     background: url(https://media1.tenor.com/m/q59uBuW4GMQAAAAC/cloud.gif);
-    display: flex;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
     background-color: #000000;

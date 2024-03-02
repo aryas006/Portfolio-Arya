@@ -23,6 +23,8 @@ const Projects = () => {
     { name: "BlogDAPP" },
     { name: "ID-CardDApp" },
     { name: "PRODO" },
+    { name: "Quasar" },
+    { name: "Carbonara" },
   ];
 
   return (
@@ -34,7 +36,7 @@ const Projects = () => {
           }`}
           ref={domRef}
         >
-          <div className="project-names main">Projects</div>
+     <p className='text-center title-focus text-8xl '>Projects </p>
           {projects.map((project, index) => (
             <div key={index} className="project-names">
               <a className="title">{project.name}</a>

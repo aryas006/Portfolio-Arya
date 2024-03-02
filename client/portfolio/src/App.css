@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+
   scroll-behavior: smooth;
 }
 
@@ -12,6 +12,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');

@@ -1,17 +1,31 @@
 #container-projects {
-    background-color: black;
+ 
+    animation: moveBackground 10s ease infinite;
+    background-size: 200% 100%;
         display: flex;
     flex-direction: column;
     align-items: center;
+
     justify-content: center;
-    height: 100vh;
+    height: 100vh;  
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 30px;
     animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+        background: linear-gradient(264deg,red,rgb(105, 0, 0),red,white);
+        background-size: 400% 400%;
+    
+        animation: AnimationName 8s ease infinite;
     }
+    
+    @keyframes AnimationName {
+        0%{background-position:2% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:2% 0%}
+    }
+      
     
     body {
         animation: fadeInAnimation ease 3s;
@@ -30,8 +44,8 @@
 }
 
 .projects-main {
-    color: white;
-    width: 70%;
+    color: rgb(0, 0, 0);
+    width: 80%;
 }
 
 .title {
@@ -41,10 +55,9 @@
 .project-names {
     display: flex;
     flex-direction: row;
-    align-items: start;
-    justify-content: start;
+
     padding: 20px;
-    border: 2px solid #ffffff;
+    border: 2px solid #626262;
     animation: fadeIn 5s;
         -webkit-animation: fadeIn 5s;
         -moz-animation: fadeIn 5s;
@@ -101,9 +114,9 @@
             opacity: 1;
         }
 }
-
+    
 .main {
-    border: 2px solid #0044ff;
+    border: 2px solid #ff0000;
 }
 
 .arrow {
